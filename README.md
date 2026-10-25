@@ -2,6 +2,10 @@
 
 A historical wind forecast dashboard for UK day-ahead electricity decisions in January 2026. Explore what was known at a selected cutoff, then compare that forecast with delivered wind generation.
 
+**Live app:** https://w7q9m2k4.vercel.app  
+**Public repository:** https://github.com/DebmalyaSen34/w7q9m2k4  
+**API documentation:** https://w7q9m2k4.vercel.app/api/docs
+
 **Stack:** React 19, TypeScript, Vite, Recharts, Python/FastAPI, SQLite. The deployed application reads a bundled real Elexon snapshot. No API key, external database, paid service, or scheduled job is required.
 
 ## Run locally
@@ -108,3 +112,5 @@ OpenAI Codex assisted with implementation, tests, documentation, and verificatio
 ## Demo
 
 See [the demo guide](docs/DEMO.md) for a customer walkthrough followed by technical review, kept below ten minutes. The source challenge document is excluded from Git and deployment bundles.
+
+To recreate the narrated MP4 on macOS, start the app and run `node scripts/create-demo.mjs` (requires FFmpeg, the macOS Daniel voice, and Playwright Chromium). The output is `artifacts/windward-demo.mp4`, with scene images, narration text, and chapter timing under `artifacts/demo/`. It is an automated walkthrough with synthesized narration, not a recording of the candidate. Review it before uploading to YouTube as unlisted; the script does not publish or submit it.

@@ -21,4 +21,11 @@ Target duration: five to eight minutes, with no more than five minutes per part.
 
 ## Recording and submission
 
-An automated local walkthrough may accompany this guide. Any synthesized narration should be labeled as generated, and should not impersonate the candidate. Review the video before uploading it as unlisted on YouTube. Copy the final unlisted video URL into the submission form alongside the public repository and app URL, then verify all three links in an incognito browser.
+The generated local walkthrough is `artifacts/windward-demo.mp4` (4 minutes 46 seconds). It includes a customer overview followed by technical review and is explicitly labeled as an automated walkthrough with synthesized narration. Recreate it using `node scripts/create-demo.mjs` on macOS with FFmpeg installed and the local app running. Scene text and timings are retained in `artifacts/demo/`.
+
+Review the video before uploading it as unlisted on YouTube. Copy the final unlisted video URL into the submission form alongside these links, then verify all three in an incognito browser:
+
+- App: https://w7q9m2k4.vercel.app
+- Repository: https://github.com/DebmalyaSen34/w7q9m2k4
+
+YouTube upload and submission-form delivery are not performed by the demo generator.
