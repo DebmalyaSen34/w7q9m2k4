@@ -1,0 +1,33 @@
+name: Verify application
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m venv .venv && .venv/bin/pip install -r requirements-dev.txt
+      - run: .venv/bin/python -m pytest -q
+      - run: npm ci && npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - name: Build and verify Docker deployment
+        run: |
+          docker compose up --build -d
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8000/api/health; then break; fi
+            sleep 2
+          done
+          curl -fsS http://127.0.0.1:8000/ | grep -q Windward
+          curl -fsS 'http://127.0.0.1:8000/api/forecast?decision_date=2026-01-31' | .venv/bin/python -c 'import sys,json; d=json.load(sys.stdin); assert d["delivery_date"] == "2026-02-01" and d["forecast_coverage"] == 24'
+      - if: always()
+        run: docker compose logs && docker compose down

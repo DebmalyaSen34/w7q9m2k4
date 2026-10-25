@@ -1,0 +1,12 @@
+.venv
+node_modules
+data/raw
+artifacts
+test-results
+playwright-report
+tests
+e2e
+*.docx
+__pycache__
+.pytest_cache
+.env*

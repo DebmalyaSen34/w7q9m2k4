@@ -1,0 +1,17 @@
+.venv/
+node_modules/
+dist/
+.vercel/
+.env*
+__pycache__/
+.pytest_cache/
+test-results/
+playwright-report/
+*.pyc
+*.docx
+data/raw/
+data/*.tmp
+.DS_Store
+artifacts/
+*.tsbuildinfo
+.vercel

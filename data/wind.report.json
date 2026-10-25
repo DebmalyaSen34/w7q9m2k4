@@ -1,0 +1,340 @@
+{
+  "dataset": {
+    "version": "a52e07307098234e",
+    "retrieved_at": "2026-10-25T08:14:54Z",
+    "built_at": "2026-10-25T08:21:03Z",
+    "source": "Elexon Insights \u2022 FUELHH WIND + WINDFOR",
+    "decision_start": "2026-01-01",
+    "decision_end": "2026-01-31",
+    "delivery_start": "2026-01-02",
+    "delivery_end": "2026-02-01",
+    "forecast_interval_minutes": 60,
+    "actual_interval_minutes": 30,
+    "missing_actual_periods": [],
+    "duplicates_removed": 31,
+    "conflicts": 0,
+    "actual_revision_count": 0,
+    "stale_threshold_hours": 12
+  },
+  "default_cutoff": "09:00",
+  "metrics": {
+    "mae_mw": 2038.9126344086021,
+    "rmse_mw": 2504.758652899355,
+    "bias_mw": 1747.8870967741937,
+    "valid_pairs": 744,
+    "expected_pairs": 744,
+    "coverage_percent": 100.0
+  },
+  "daily": [
+    {
+      "decision_date": "2026-01-01",
+      "delivery_date": "2026-01-02",
+      "mae_mw": 3109.9166666666665,
+      "rmse_mw": 3171.3785514609676,
+      "bias_mw": 3109.9166666666665,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-02",
+      "delivery_date": "2026-01-03",
+      "mae_mw": 2102.2083333333335,
+      "rmse_mw": 2463.1866639917216,
+      "bias_mw": 2102.2083333333335,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-03",
+      "delivery_date": "2026-01-04",
+      "mae_mw": 1146.5416666666667,
+      "rmse_mw": 1255.3634765809197,
+      "bias_mw": 1146.5416666666667,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-04",
+      "delivery_date": "2026-01-05",
+      "mae_mw": 1331.6875,
+      "rmse_mw": 1583.87751065226,
+      "bias_mw": -55.854166666666664,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-05",
+      "delivery_date": "2026-01-06",
+      "mae_mw": 2085.0208333333335,
+      "rmse_mw": 2444.518811289862,
+      "bias_mw": 1835.3125,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-06",
+      "delivery_date": "2026-01-07",
+      "mae_mw": 1492.8541666666667,
+      "rmse_mw": 1733.5683664770768,
+      "bias_mw": 1468.0625,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-07",
+      "delivery_date": "2026-01-08",
+      "mae_mw": 1949.2291666666667,
+      "rmse_mw": 2153.411965637323,
+      "bias_mw": 844.7708333333334,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-08",
+      "delivery_date": "2026-01-09",
+      "mae_mw": 839.4375,
+      "rmse_mw": 1074.6020726684521,
+      "bias_mw": 804.8541666666666,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-09",
+      "delivery_date": "2026-01-10",
+      "mae_mw": 1101.2291666666667,
+      "rmse_mw": 1238.0421665880367,
+      "bias_mw": -86.14583333333333,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-10",
+      "delivery_date": "2026-01-11",
+      "mae_mw": 4801.645833333333,
+      "rmse_mw": 4853.410299083522,
+      "bias_mw": 4801.645833333333,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-11",
+      "delivery_date": "2026-01-12",
+      "mae_mw": 4868.25,
+      "rmse_mw": 5120.915699771543,
+      "bias_mw": 4868.25,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-12",
+      "delivery_date": "2026-01-13",
+      "mae_mw": 1403.3333333333333,
+      "rmse_mw": 1584.486878035494,
+      "bias_mw": 156.5,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-13",
+      "delivery_date": "2026-01-14",
+      "mae_mw": 1077.4375,
+      "rmse_mw": 1236.072741757809,
+      "bias_mw": -84.1875,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-14",
+      "delivery_date": "2026-01-15",
+      "mae_mw": 1041.8333333333333,
+      "rmse_mw": 1149.2585925282438,
+      "bias_mw": 1041.8333333333333,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-15",
+      "delivery_date": "2026-01-16",
+      "mae_mw": 782.75,
+      "rmse_mw": 926.0046796138055,
+      "bias_mw": 351.9583333333333,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-16",
+      "delivery_date": "2026-01-17",
+      "mae_mw": 1726.7916666666667,
+      "rmse_mw": 1802.1610869545857,
+      "bias_mw": 1726.7916666666667,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-17",
+      "delivery_date": "2026-01-18",
+      "mae_mw": 1554.8333333333333,
+      "rmse_mw": 1611.3062183106806,
+      "bias_mw": 1554.8333333333333,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-18",
+      "delivery_date": "2026-01-19",
+      "mae_mw": 736.1458333333334,
+      "rmse_mw": 812.6253813514975,
+      "bias_mw": -730.0625,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-19",
+      "delivery_date": "2026-01-20",
+      "mae_mw": 1054.625,
+      "rmse_mw": 1438.8698255922945,
+      "bias_mw": 351.8333333333333,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-20",
+      "delivery_date": "2026-01-21",
+      "mae_mw": 3658.3125,
+      "rmse_mw": 3766.5295545656704,
+      "bias_mw": 3658.3125,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-21",
+      "delivery_date": "2026-01-22",
+      "mae_mw": 2666.375,
+      "rmse_mw": 2781.3535860859783,
+      "bias_mw": 2666.375,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-22",
+      "delivery_date": "2026-01-23",
+      "mae_mw": 1514.8333333333333,
+      "rmse_mw": 1600.0724137259122,
+      "bias_mw": 1514.8333333333333,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-23",
+      "delivery_date": "2026-01-24",
+      "mae_mw": 1925.9375,
+      "rmse_mw": 2213.273963027774,
+      "bias_mw": 1925.9375,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-24",
+      "delivery_date": "2026-01-25",
+      "mae_mw": 1891.25,
+      "rmse_mw": 2041.9946539270534,
+      "bias_mw": 1891.25,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-25",
+      "delivery_date": "2026-01-26",
+      "mae_mw": 1980.875,
+      "rmse_mw": 2206.4158483462115,
+      "bias_mw": 1980.875,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-26",
+      "delivery_date": "2026-01-27",
+      "mae_mw": 3479.1041666666665,
+      "rmse_mw": 3578.4403798419407,
+      "bias_mw": 3479.1041666666665,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-27",
+      "delivery_date": "2026-01-28",
+      "mae_mw": 5374.791666666667,
+      "rmse_mw": 5399.402804554716,
+      "bias_mw": 5374.791666666667,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-28",
+      "delivery_date": "2026-01-29",
+      "mae_mw": 1739.0416666666667,
+      "rmse_mw": 1775.0573230180482,
+      "bias_mw": 1739.0416666666667,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-29",
+      "delivery_date": "2026-01-30",
+      "mae_mw": 1371.7291666666667,
+      "rmse_mw": 1590.66641891064,
+      "bias_mw": 1371.7291666666667,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-30",
+      "delivery_date": "2026-01-31",
+      "mae_mw": 2390.1666666666665,
+      "rmse_mw": 2490.494550117841,
+      "bias_mw": 2390.1666666666665,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    },
+    {
+      "decision_date": "2026-01-31",
+      "delivery_date": "2026-02-01",
+      "mae_mw": 1008.1041666666666,
+      "rmse_mw": 1067.8510400566176,
+      "bias_mw": 983.0208333333334,
+      "valid_pairs": 24,
+      "expected_pairs": 24,
+      "coverage_percent": 100.0
+    }
+  ]
+}

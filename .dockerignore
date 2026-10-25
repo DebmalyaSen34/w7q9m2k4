@@ -1,0 +1,12 @@
+.git
+.venv
+.vercel
+node_modules
+dist
+data/raw
+artifacts
+test-results
+playwright-report
+*.docx
+__pycache__
+.env*
