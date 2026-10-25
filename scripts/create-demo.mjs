@@ -38,7 +38,7 @@ async function app() {
 async function capture(title, narration) {
   const index = chapters.length + 1;
   const prefix = resolve(output, String(index).padStart(2, "0"));
-  await page.screenshot({ path: prefix + ".png" });
+  await page.screenshot({ path: prefix + ".png", animations: "disabled" });
   writeFileSync(prefix + ".txt", narration);
   execFileSync("say", [
     "-v",
